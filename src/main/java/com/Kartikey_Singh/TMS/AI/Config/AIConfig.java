@@ -43,7 +43,7 @@ public class AIConfig {
                            "hack",
                            "malware",
                            "ransomware",
-                           "chutiya"
+                           
                    ))
                    .failureResponse(
                            "I can't assist with that request."
