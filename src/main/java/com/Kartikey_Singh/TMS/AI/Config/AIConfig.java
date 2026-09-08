@@ -35,21 +35,21 @@ public class AIConfig {
                 .build();
     }
 
-//        @Bean
-//        public SafeGuardAdvisor safeGuardAdvisor() {
-//
-//            return SafeGuardAdvisor.builder()
-//                    .sensitiveWords(List.of(
-//                            "hack",
-//                            "malware",
-//                            "ransomware",
-//                            "chutiya"
-//                    ))
-//                    .failureResponse(
-//                            "I can't assist with that request."
-//                    )
-//                    .build();
-//        }
+       @Bean
+       public SafeGuardAdvisor safeGuardAdvisor() {
+
+           return SafeGuardAdvisor.builder()
+                   .sensitiveWords(List.of(
+                           "hack",
+                           "malware",
+                           "ransomware",
+                           "chutiya"
+                   ))
+                   .failureResponse(
+                           "I can't assist with that request."
+                   )
+                   .build();
+       }
 
 
 
